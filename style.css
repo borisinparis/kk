@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    overflow: hidden;
+}
+.frame {
+    background: url(5C1B950B-E44B-4555-822E-4DE5E89AD5BF\ 2.PNG) no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; 
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+.video1 {
+    width:100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+}
+.background-clip {
+    position: absolute;
+    z-index: -1;
+}
+@media (min-aspect-ratio:14/12) {
+    .background-clip {
+    width: 100%;
+    height: auto;
+ }
+
+}
+@media (min-aspect-ratio:14/12) {
+    .background-clip {
+    width: auto;
+    height: 100%;
+ }
+
+}
+.frame h3 {
+    color: white;
+    font-size: 60px;
+    font-family:fantasy; 
+}
+.tomtiti {
+    display: flex;
+    text-align: center;
+}
+.titi img {
+width: 30px;
+height: 30px;
+animation: examp;
+animation-duration: 3s;
+animation-delay: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+}
+
+@keyframes examp {
+    0% {
+        opacity: 1;
+    }
+30% {
+    opacity: 0;
+}
+90% {
+    opacity:0,2;
+}
+80% {
+    opacity: 0,5;
+}
+
+
+} 
+.titi {
+    display: flex;
+    align-items: center;
+}
+.golloh {
+    position: absolute;
+    z-index: 1;
+    top: 60%;
+    left: 42%;
+}
+.bichig {
+    display: flex;
+    column-gap: 40px;
+    color: aliceblue;
+    font-family: fantasy;
+    text-transform: uppercase;
+    position: absolute;
+    z-index: 1;
+    top: 75%;
+    left :43%;
+    font-size: 30px;
+    box-shadow: 10px 10px 40px rgb(223, 3, 3);
+}
+.video1 h2 {
+    position: absolute;
+    top: 25%;
+    font-size: 60px;
+    color: red;
+    box-shadow: 5px 10px 20px red;
+    animation: examp;
+animation-duration: 3s;
+animation-delay: 1s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+font-family: fantasy;
+text-transform: uppercase;
+}
+
+
+
+
+
